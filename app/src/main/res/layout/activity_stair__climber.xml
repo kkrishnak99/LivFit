@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Stair_Climber">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="stair climber"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text="  Your Form\n
+The mistake: Holding yourself up with your arms. A lot of people put their hands on the railing and lock their elbows with arms straight down. That's like using crutches.\n
+The fix: Rest your hands lightly on the bars only for balance. Keep your body upright, with just a slight lean forward.\n
+Your Workout \n
+The mistake: Too little resistance. \n
+The fix: Go slower, with challenging resistance. You'll give yourself a tougher workout, increase your heart rate and maintain your time in the training zone longer. Result: You'll burn more fat.\n"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/stair_climber"/>
+    </LinearLayout>
+</ScrollView>

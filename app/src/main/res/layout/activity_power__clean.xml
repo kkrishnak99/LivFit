@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Power_Clean">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="power clean"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:lineSpacingExtra="4sp"
+            android:text="  PURPOSE: Total-body explosiveness.\n\n •	Stand with your feet shoulder width apart with a bar across your shins.\n
+•	Bend down grabbing the bar with a fully pronated (palms facing backward), thumb-locked grip just outside your legs.\n
+•	Keep your head up with your chest out and shoulders back. Take up the loose slack in your arms and keep your back flat with a slight arch at the base.\n
+•	Think explosion. Rapidly extend your ankles, knees, and hips at the same rate while maintaining your arms at full extension.\n
+•	This phase is known as the 'first pull'. As your legs approach full extension, the bar should still be traveling upward past your stomach.\n
+•	At this point you will continue to pull up on the bar as if you are shrugging (the 'second pull').\n
+•	As the bar reaches sternum level, and your body is fully extended, rapidly drop your body under the bar (like a squat) while rotating your elbows forward allowing the bar to come to rest on your shoulders.\n
+•	After the bar is caught on the shoulders, accelerate your body out of the bottom position by extending your knees and hips completely. To return the weight to the ground drop down while releasing the bar from your shoulders and guide it to the ground.\n
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/power_clean"/>
+    </LinearLayout>
+</ScrollView>

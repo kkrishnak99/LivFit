@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Shredded">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Shredded Next Level"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:lineSpacingExtra="4sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:text=" Diet Principles and Guidelines\n\n
+1.	Burn Fat at an extremely efficient rate\n
+2.	Keep metabolism at an optimal rate throughout the diet\n
+3.	Promote optimal Recovery\n
+4.	Maintain Muscle Mass\n
+5.	Emphasize your ability to maintain a High energy level in the Gym.\n
+
+MACRONUTRIENTS\n
+
+Proteins :  You will get plenty of protein in thisdiet. Each meal will be chalk full of this vital food source.Without adequate protein you will lose your muscle at an extremely high rate and sabotage your fat burning efforts.\n
+
+Fats  :  Healthy fats include extra-­‐virgin olive oil, flax seed oil, and fats from plant sources such as nuts, seeds, peanut butter and coconuts.\n
+
+Carbs : All of your carbohydrates will come from fibrous sources. You will not be allowed any simple sources unless you are taking in your post workout shake. The role theywill play is to spare protein, maintain energy levels in the gym, and also induce the release of insulin post workout.\n
+
+Vitamins and Minerals : A game that many athletes play with their diets is to regular intake their vitamins. In other words, they take them when they feel like it, and that is a rarity! You need to take a multivitamin and multi mineral everyday without fail.\n
+
+WAKING UP\n
+
+DETOX JUICE (Twice a week)\n
+
+MEAL 1\n
+
+BREAKFAST
+8-­‐9AM\n
+
+SUPER OATS\n
+-­‐1/2sp Whey\n
+-­‐1/2 cup Oats\n
+-­‐1/2 Banana\n
+-­‐1sp Chia Seeds\n
+-­‐2g Cinnamon\n
+-­‐4 Boiled Egg Whites\n
+-­‐1 Multivitamins\n
+CAL-­‐ 322kcal PRO-­‐28G  CARB-­‐30G  FAT-­‐10G\n
+
+MEAL 2\n
+SNACK
+11-12PM\n
+
+OMELETE\n
+-­‐6 Egg Whites\n
+-­‐1 Orange or Pear Or Apple\n
+
+CAL-­‐ 240kcal  PRO-­‐24G CARB-­‐16G FAT-­‐0G\n
+
+MEAL 3\n
+
+LUNCH
+2-­‐3PM\n
+
+CHICKEN SALAD\n
+-­‐100g Grilled or boiled Chicken \n
+-­‐1cup Cucumber\n
+-­‐1c Green Leaves or Lettuce or Cabbage\n
+-­‐1 large Carrot\n
+-­‐3sp Tomato\n
+-­‐1 Whole Egg\n
+-­‐20g Walnut\n
+-­‐1sp Vinegar\n
+-­‐Avocado and Broccoli (option)\n
+-­‐Non Fat Ranch (optional)\n
+-­‐1g CLA Supplement\n
+
+CAL-­‐ 326kcal PRO-­‐25G CARB-­‐25G   FAT-­‐14G\n
+
+MEAL 4\n
+SNACK
+4-­‐5PM\n
+
+BANANA PROTEIN\n
+
+-­‐1 Banana\n
+-­‐1sp Peanut Butter\n
+-­‐1sp Peanuts\n
+-­‐1sp Whey (or 2sp Protinex)\n
+
+CAL-­‐ 315kcal  PRO-­‐30G CARB-­‐30G FAT-­‐15G\n
+
+PRE W/O\n
+6PM\n
+
+PRE W/O SUPPLEMENT\n
+-­‐1scoop Amino Energy\n
+-­‐200ml Cold Water\n
+OR\n
+
+PRE W/O WITHOUT SUPPLEMENT\n
+-­‐½tbs Coffee (Nescafe)\n
+-­‐240ml Hot Water + 1sp milk\n
+
+POST W/O\n
+7:30PM
+
+POST W/O SUPPLEMENT\n
+-­‐1-­‐2scoop Prostar Whey Protein\n
+-­‐240ml cold water or 1sp(200ml) Gatorade\n
+OR	NO WORKOUT\n
+
+POST W/O WITHOUT SUPPLEMENT\n
+-­‐6 Boiled Egg Whites\n
+-­‐240ml Non fat milk\n
+
+CAL-­‐ 136kcal  PRO-­‐34G CARB-­‐0G FAT-­‐0G\n
+
+MEAL 5\n
+
+DINNER
+8:30-­‐9PM\n
+
+VEGGIE BOWL with Chicken\n
+
+-­‐ ½cup Brown Rice\n
+-­‐ 80g Chicken Breast (or boiled)\n
+-­‐ ½ Chick Peas\n
+-­‐½ Green Bell Pepper\n
+-­‐ ½cup Cauliflower\n
+-­‐3sp Green Onion(or Red Onion)\n
+-­‐3sp Tomato\n
+-­‐ ½ Lemon\n
+-­‐ ½ Coconut Oil\n
+-­‐1sp Ketchup\n
+-­‐Salt/Pepper/Garlic Power\n
+-­‐1g Fish Oil Supplement\n
+
+CAL-­‐ 355kcal  PRO-­‐30G CARB-­‐25G FAT-­‐15G\n
+
+MEAL 6\n
+
+BEFORE BED
+11PM\n
+
+CASEIN MILK PROTEIN\n
+
+-­‐2/3sp Casein or Whey or Protienx\n
+-­‐240mlAlmond Milk (coconut or non fat milk)\n
+-­‐2sp Ground Flaxseeds\n
+-­‐Pinch Cinnamon\n
+-­‐ 1g CLA Supplement\n
+
+CAL-­‐ 355kcal  PRO-­‐24G CARB-­‐7G FAT-­‐15G\n
+
+TOTAL    CAL-­‐1930kcal  P-­‐203g   C-­‐122g   F-­‐70g\n
+"/>
+
+
+    </LinearLayout>
+</ScrollView>

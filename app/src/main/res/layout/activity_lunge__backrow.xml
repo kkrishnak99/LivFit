@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Lunge_Backrow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="lunge with back row"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text=" Functionality: This exercise will improve your posture by strengthening the muscles in your upper and mid back, shoulders and arms while also toning and strengthening your legs and improving your hip flexibility.\n
+Exercise: Holding an 8-pound weight in each hand, step your right foot forward and your left foot back, keeping both heels on the floor and feet pointing straight ahead.\n Bend your right knee until it is over your right ankle.\n Lower your chest toward your thigh, bringing your arms perpendicular to the floor, keeping your back flat (don't hunch) — this is your start position.\n Straighten your right leg, row your elbows back, and squeeze your shoulder blades together, keeping your torso angled slightly forward.\n Return to the start position. Repeat 10 to 15 times for each leg. Increase the weight of the dumbbells as you get stronger.\n This exercise can also be done with a resistance band looped underneath the front foot.\n
+ "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/lunge_row"/>
+    </LinearLayout>
+</ScrollView>

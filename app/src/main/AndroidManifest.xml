@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="plkk.developers.com.livfit">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="plkk.developers.com.livfit.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sign_up"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="plkk.developers.com.livfit.Sign_up" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".User"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="plkk.developers.com.livfit.User" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Browse"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BrowseWorkout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BrowseDiet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Browse_Chest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browse_Shoulder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browse_Back"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browse_Biceps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browse_Triceps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browse_Legs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Barbell_Bench"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dumbbell_Fly"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Incline_Bench"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Decline_Chest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pushups"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Incline_Fly"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dumbbell_Bench"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chinup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Military_Press"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Overhead_Press"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Arnold_Press"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Front_Press"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cable_Rear_Delt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Upright_Row"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Shrugs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Deadlift"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lat_Pulldown"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tbar_Row"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seated_Cable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Widegrip_Pullup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Singlearm_Row"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bentover_Row"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bicep_Curl"
+            android:label="@string/title_activity_bicep__curl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Incline_Innerbicep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Barbell_Curl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hammer_Curl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Concentration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Diamond_Dips"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Close_Bench"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Skull_Crusher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tricep_Extension"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rope_Pulldown"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lunges"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Squats"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Leg_Curl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Leg_Extension"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Calf_Raise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browse_Cardio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browse_Functional"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browse_Core"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Treadmill"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stationary_Bike"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Elliptical_Trainer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stair_Climber"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Jumping_Rope"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hill_Running"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hiit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Medicine_Squat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stairclimb_Bicep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lunge_Backrow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pushup_Hip"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Power_Clean"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="plkk.developers.com.livfit.Power_Clean" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Front_Squat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Plank"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Diagonal_Ball"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Torso_Rotation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Prone_Plank"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mass_Up"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="plkk.developers.com.livfit.Mass_Up" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Muscular"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="plkk.developers.com.livfit.Muscular" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Shredded"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="plkk.developers.com.livfit.Shredded" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Carbohydrates"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Protein"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fats"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Supplements"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RecommendedWorkouts"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="plkk.developers.com.livfit.RecommendedWorkouts" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyProfile" />
+        <activity android:name=".EditProfile"></activity>
+    </application>
+
+</manifest>

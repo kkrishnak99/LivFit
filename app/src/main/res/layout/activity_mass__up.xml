@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Mass_Up">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="MASS UP"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:lineSpacingExtra="4sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:text=" Diet Principles and Guidelines\n
+1.	Keep metabolism at an optimal rate throughout the diet\n
+2.	Promote optimal Recovery\n
+3.	Maintain Muscle Mass\n
+4.	Emphasize your ability to maintain a High energy level in the Gym.\n
+MACRONUTRIENTS\n
+Proteins :  You will get plenty of protein in thisdiet. Each meal will be chalk full of this vital food source.Without adequate protein you will lose your muscle at an extremely high rate and sabotage your fat burning efforts.\n
+Fats  :  Healthy fats include extra-­‐virgin olive oil, flax seed oil, and fats from plant sources such as nuts, seeds, peanut butter and coconuts.\n
+Carbs : All of your carbohydrates will come from fibrous sources. You will not be allowed any simple sources unless you are taking in your post workout shake. The role theywill play is to spare protein, maintain energy levels in the gym, and also induce the release of insulin post workout.\n
+Vitamins and Minerals : A game that many athletes play with their diets is to regular intake their vitamins. In other words, they take them when they feel like it, and that is a rarity! You need to take a multivitamin and multi mineral everyday without fail.\n
+MEAL 1\n
+MUSCLE OATS\n
+-­‐2/3cup Oats\n
+-­‐1/4 cup Cereals or Granola\n
+-­‐2/3sp Whey\n
+-­‐1sp Brans\n
+-­‐1/8 cup Raisin\n
+-­‐1/8 cup Cranberries\n
+-­‐1/8 cup Crushed Almonds\n
+-­‐1/8 cup Crushed Walnuts\n
+-­‐1/2 Banana\n
+-­‐1/2 Apple\n
+-­‐2pinch Cinnamon\n
+CAL-­‐595kcal	PRO-­‐35g   CARB-­‐80g   FAT-­‐15g\n
+MEAL 2\n
+PROTEIN POWER SNACK\n
+-­‐1 Slice Bread + 2eggs Omelet (1whole+1white)\n
+-­‐1 Slice Bread+ ½ cup mashed chickpeas\n
+-­‐1 Slice Bread+ ½ Banana+1sp Peanut butter\n
+CAL-­‐536kcal		PRO-­‐30g    CARB-­‐68g    FAT-­‐16g\n
+MEAL 3\n
+MUSCLE BUILDER POTATO BOWL\n
+-­‐140g Sweet Potato\n
+-­‐1/2 cup Kidney Beans\n
+-­‐50g Fresh Paneer\n
+-­‐1/2 Green Pepper\n
+1/4cup Spinach (chopped)\n
+-­‐3sp Green onion (chopped)\n
+-­‐2sp Tomato (chopped)\n
+Sauce: Yogurt Sauce Topping\n
+-­‐1/3cup Mango or Pine Apple (chopped)\n
+-­‐3 Egg whites (scrambled)\n
+CAL-­‐490kcal PRO-­‐32g   CARB-­‐68g    FAT-­‐10g\n
+MEAL 4\n
+SWEET MUSCLE RICE\n
+-­‐2/3cup Brown Rice\n
+-­‐1sp Honey\n
+-­‐1sp Peanut Butter\n
+-­‐1sp Peanuts\n
+-­‐1sp Black Raisins\n
+-­‐2/3 Banana\n
+Protein Pudding:
+-­‐2sp Yogurt+2/3sp Whey\n
+CAL-­‐597kcal PRO-­‐33g   CARB-­‐78g    FAT-­‐17g\n
+PRE W/O SUPPLEMENT\n
+-­‐1scoop Neurocore by MuscleTech\n
+-­‐200ml Cold Water\n
+OR\n
+PRE W/O WITHOUT SUPPLEMENT\n
+-­‐½tbs Coffee (Nescafe)\n
+-­‐240ml Hot Water\n
+WORKOUT\n
+POST W/O SUPPLEMENT\n
+-­‐1-­‐2scoop Whey Protein\n
+-­‐2-­‐3sp Carbo Plus\n
+-­‐400ml Cold Water\n
+CAL-­‐389kcal PRO-­‐35g   CARB-­‐60g   FAT-­‐1g\n
+OR\n
+POST W/O WITHOUT SUPPLEMENT\n
+-­‐6 Boiled Egg Whites\n
+-­‐2 Banana\n
+CAL-­‐308kcal PRO-­‐25g   CARB-­‐52g   FAT-­‐0g\n
+OR\n
+-­‐2sp Protinex with 240ml NF Milk\n
+-­‐2 Banana\n
+CAL-­‐377kcal PRO-­‐22g    CARB-­‐72g   FAT-­‐1g\n
+MEAL 5\n
+MUSCLE MEAT\n
+-­‐2 Chicken Drumsticks (Legs)\n
+(Grilled, roasted or pan cooked)\n
+-­‐1 Pineapple Ring\n
+Broccoli Cabbage Salad\n
+-­‐1/2 cup crushed Broccoli\n
+-­‐1/2 cup crushed Cabbage\n
+-­‐1sp Ranch\n
+Beans Salad\n
+-­‐1/4cup Kidney Beans\n
+-­‐1/4cup Chickpeas\n
+-­‐2sp chopped carrots\n
+-­‐2sp chopped tomato\n
+-­‐2sp chopped onion\n
+-­‐1/2 lemon\n
+-­‐Cilantro little bit\n
+-­‐Ketchup or Red Chutney\n
+-­‐Salt/Pepper\n
+CAL-­‐513kcal PRO-­‐30g    CARB-­‐60g   FAT-­‐17g\n
+MEAL 6\n
+PROTEIN BURFI\n
+-­‐1egg white\n
+-­‐2/3sp whey or casein\n
+-­‐3sp Peanuts\n
+-­‐1sp Raisins\n
+CAL-­‐279kcal PRO-­‐25g    CARB-­‐11g    FAT-­‐15g\n
+TOTAL\n
+CAL 3399kcal  PRO-­‐220g   CARB-­‐425g   FAT-­‐90g
+"/>
+
+
+    </LinearLayout>
+</ScrollView>

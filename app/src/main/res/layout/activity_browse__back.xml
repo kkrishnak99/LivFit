@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/gradient_back"
+    tools:context="plkk.developers.com.livfit.Browse_Back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="215dp"
+            android:src="@drawable/browse_back"
+            android:scaleType="centerCrop"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            />
+
+        <Button
+            android:id="@+id/button_deadlift"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"
+            android:onClick="deadlift"
+            android:text="Deadlift" />
+
+        <Button
+            android:id="@+id/button_latpulldown"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="lat_pulldown"
+            android:text="Lat Pulldown"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_tbarrow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="tbar_row"
+            android:text="Standing T-Bar Row"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_seatedcable"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="seatedcable_row"
+            android:text="Seated Cable Row"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_pullup"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="widegrip_pullup"
+            android:text="Wide-Grip Pullup"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_singlearmrow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="singlearm_row"
+            android:text="Single Arm Dumbbell Row"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="bentover_row"
+            android:text="Bent Over Barbell Rowing"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#FFFFFF"
+            android:layout_margin="4dp" />
+    </LinearLayout>
+</ScrollView>

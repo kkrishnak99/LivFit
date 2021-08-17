@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Prone_Plank">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="dynamic prone plank"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text="  Functionality: This dynamic exercise tones, lengthens and strengthens just about every muscle in your body. Though it is challenging, it's a perfect exercise to end with.\n
+Exercise: Get on your hands and toes, facing the floor, keeping your head, back and legs in a straight line and your arms straight underneath your shoulders.\n Lift your rear toward the ceiling, pulling your belly button into your spine, forming a pike or downward dog yoga position, lengthening your arms and legs.\n Return to plank position, and bend your elbows against your sides, lowering your torso and legs to the floor.\n Keeping your lower body flat on the floor, use your arms to push your chest and head up toward the ceiling, similar to the cobra pose in yoga, stretching out the front of your body.\n Lower yourself, and push your body back into plank position.\n Repeat five to 10 times. As you get stronger, increase the number of repetitions.\n
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/prone_plank"/>
+    </LinearLayout>
+</ScrollView>

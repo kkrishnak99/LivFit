@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Stationary_Bike">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="stationary bike"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:padding="8sp"
+            android:lineSpacingExtra="4sp"
+            android:text="  Your Form\n
+The mistake: The seat is too low or too high. A low seat fatigues the legs and stresses knees. Set it too high and your hips rock from side to side, which is inefficient.\n
+The fix: Adjust the seat, people! Sit on the seat and place your heel in the middle of the pedal, where the ball of your foot would normally go. You want your leg fully extended, at the lowest point of the pedal rotation. By moving your foot to the correct position on the pedal, you'll have the right amount of bend.\n
+Your Workout \n
+The mistake: Cruising instead of charging.\n
+The fix: Vary the intensity, with 2 to 3 minutes of high-cadence pedaling and a 3-minute recovery, then repeat for 15 minutes. Stand occasionally, which will add another dimension to your workout. Standing requires more muscle not only to push the pedals, but also to support and balance your body.\n"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/stationary_bike"/>
+    </LinearLayout>
+</ScrollView>

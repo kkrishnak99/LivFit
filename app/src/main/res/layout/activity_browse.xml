@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="plkk.developers.com.livfit.Browse"
+    android:background="@drawable/browse_bg"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/button_workouts"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_weight="1"
+            android:background="@drawable/workout"
+            android:layout_marginTop="20dp"
+            android:onClick="browseWorkout"
+            android:text="WORKOUTS"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:paddingTop="200dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="17dp"
+
+
+            />
+
+        <Button
+            android:id="@+id/button_diets"
+            android:layout_width="wrap_content"
+            android:layout_height="195dp"
+            android:layout_weight="1"
+            android:background="@drawable/diet"
+            android:onClick="browseDiet"
+            android:text="Macronutrients"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif"
+            android:paddingTop="199dp"
+            android:layout_marginBottom="17dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

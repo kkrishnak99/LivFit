@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/gradient_workout"
+    tools:context="plkk.developers.com.livfit.BrowseWorkout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/button_chest"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Chest"
+            android:onClick="browseChest"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_shoulder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Shoulder"
+            android:onClick="browseShoulder"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Back"
+            android:onClick="browseBack"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_biceps"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Biceps"
+            android:onClick="browseBiceps"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_triceps"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Triceps"
+            android:onClick="browseTriceps"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_legs"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Legs"
+            android:onClick="browseLegs"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_cardio"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="browseCardio"
+            android:text="Cardio"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_functional"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="browseFunctional"
+            android:text="Functional"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_core"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="browseCore"
+            android:text="Core"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

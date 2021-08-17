@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Protein">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Protein"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text=" •	Proteins provide four calories per gram, the same amount as carbohydrates but less than fats. Protein foods are made of amino acids, commonly called “the building blocks of the body.”\n
+•	Some of the roles that amino acids/proteins have include helping to form and maintain muscle mass, providing energy for our cells and brain, helping store away energy for later use in fat stores, making your heart beat, and helping build the foundation of vital organs, including your heart, lungs and even your DNA, and supporting growth/development.\n
+Protein is mostly used in our body to build and repair muscle and tissue, but has many other important functions as well. Protein foods include:\n
+•	Meat and meat products (beef, chicken, lamb, pork or kangaroo)\n
+•	Fish and seafood\n
+•	Eggs\n
+•	Dairy food such as milk and yoghurt (also carbohydrate)\n
+•	Beans and pulses (also carbohydrates)\n
+•	Nuts (also fats)\n
+•	Soy and tofu products\n
+ "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>

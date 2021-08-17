@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Muscular">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Muscular 8"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:padding="8sp"
+            android:lineSpacingExtra="4sp"
+            android:text=" Diet Principles and Guidelines\n\n
+1.	Keep metabolism at an optimal rate throughout the diet\n
+2.	Promote optimal Recovery\n
+3.	Maintain Muscle Mass\n\n
+
+MACRONUTRIENTS\n
+
+Proteins :  You will get plenty of protein in thisdiet. Each meal will be chalk full of this vital food source.Without adequate protein you will lose your muscle at an extremely high rate and sabotage your fat burning efforts.\n
+
+Fats  :  Healthy fats include extra-­‐virgin olive oil, flax seed oil, and fats from plant sources such as nuts, seeds, peanut butter and coconuts.\n
+
+Carbs : All of your carbohydrates will come from fibrous sources. You will not be allowed any simple sources unless you are taking in your post workout shake. The role theywill play is to spare protein, maintain energy levels in the gym, and also induce the release of insulin post workout.\n
+
+Vitamins and Minerals : A game that many athletes play with their diets is to regular intake their vitamins. In other words, they take them when they feel like it, and that is a rarity! You need to take a multivitamin and multi mineral everyday without fail.\n
+
+BREAKFAST\n
+8-9AM\n
+
+SCRAMBLED EGGS and NUTS\n
+-­‐6 Egg Whites\n
+-­‐1/2 cup Kidney Beans\n
+-­‐2sp Onions\n
+-­‐2sp Tomato\n
+-­‐1 handful Spinach\n
+-­‐3sp Peanuts\n
+
+SNACK\n
+11-12PM\n
+
+APPLE PEANUT BUTTER\n
+-­‐1 Apple\n
+-­‐1 ½sp Peanut Butter\n
+-­‐5g Cinnamon\n
+
+LUNCH\n
+2-3PM\n
+
+CHICKEN and VEGETABLES\n
+
+-­‐100g Grilled Chicken\n
+-­‐1/2 cup Black Kidney Beans\n
+-­‐30g Sweet Potato (Optional)\n
+-­‐1/2 cup Green Beans\n
+-­‐1/2 cup Green Bell Pepper\n
+-­‐1/2 cup Broccoli (or Cauliflower)\n
+-­‐2sp Onion\n
+-­‐2sp Tomato\n
+
+PRE W/O\n
+5PM\n
+
+PRE W/O SUPPLEMENT\n
+-­‐1scoop C4 Extreme\n
+-­‐200ml Cold Water\n
+OR\n
+PRE W/O WITHOUT SUPPLEMENT\n
+-­‐½tbs Coffee (Nescafe)\n
+-­‐240ml Hot Water\n
+
+POST W/O\n
+6‐7PM\n
+POST W/O SUPPLEMENT\n
+-­‐1-2scoop Whey Protein\n
+-­‐300ml Cold Water\n
+-­‐3 Dates (Khajoor)\n
+OR\n
+
+POST W/O WITHOUT SUPPLEMENT\n
+-­‐6 Boiled Egg Whites\n
+-­‐3 Dates (Khajoor)\n
+
+DINNER\n
+
+OMELET BEANS WRAP\n
+-­‐120g Grilled Chicken Breast\n
+-­‐2 Whole Eggs\n
+-­‐2 Egg Whites\n
+-­‐½ cup Black Beans\n
+-­‐2sp Onions\n
+-­‐2sp Tomato\n
+-­‐½ Peach (Optional)\n
+-­‐30g Boiled Potato\n
+-­‐2sp Yogurt\n
+-­‐¼ cup Non Fat Cheese (Optional)\n
+-­‐1sp Ketchup\n
+-­‐Salt/Pepper/Garlic Power\n
+
+BEDTIME\n
+
+ALMOND MILK\n
+-­‐1cup Low Fat Milk\n
+-­‐2 Green Cardamom\n
+-­‐2 Cloves\n
+-­‐Pinch Cinnamon\n
+-­‐20 Almonds (crushed)\n
+
+
+CAL 2000kcal  PRO-­‐200g  CARB-­‐150g   FAT-­‐80g\n
+"/>
+
+
+    </LinearLayout>
+</ScrollView>

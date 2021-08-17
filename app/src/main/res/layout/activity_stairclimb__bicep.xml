@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Stairclimb_Bicep">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="stair climb with bicep curl"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:padding="8sp"
+            android:lineSpacingExtra="4sp"
+            android:text="  Functionality: Whether you have stairs at your house or have to climb them elsewhere, using stairs as part of your fitness program will keep your legs conditioned and toned. Partnering stair climbs with bicep curls will strengthen your arms and improve your ability to carry things up the stairs. This exercise will also boost your cardiovascular fitness.\n
+Exercise: Stand at the bottom of a flight of stairs, holding a 5- to 8-pound dumbbell in each hand.\n Climb the stairs while performing bicep curls. \nWalk or run down the stairs while holding the weights, but don't do curls.\n Repeat five to 10 times.\n Increase the dumbbell weight as your arms get stronger, and mix up your climbs by taking two steps at a time for a flight or two.\n
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/stair_bicep"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_back"
+
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Browse_Core">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="215dp"
+            android:src="@drawable/core"
+            android:scaleType="centerCrop"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            />
+
+
+        <Button
+            android:id="@+id/button_plank"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="plank"
+            android:text="Plank"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="diagonal_ball"
+            android:text="Diagonal Medicine Ball"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="torso_rotation"
+            android:text="Torso Rotation with Medicine Ball"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/button_proneplank"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="prone_plank"
+            android:text="Dynamic prone plank"
+            android:background="@drawable/ripple_effect"
+            android:textColor="#000000"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+</ScrollView>

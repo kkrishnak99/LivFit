@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context="plkk.developers.com.livfit.EditProfile">
+
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/edit_height"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edit"
+        android:background="#00000000"
+        android:gravity="center"
+        android:layout_marginTop="74dp"
+        android:ems="10"
+        android:hint="Height"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/edit_height"
+        android:background="#00000000"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/edit_save"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_weight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:textSize="20sp"
+        android:background="@color/colorButton"
+        android:onClick="onClickEdit"
+        android:text="Save" />
+</RelativeLayout>

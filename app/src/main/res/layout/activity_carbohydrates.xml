@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Carbohydrates">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Carbohydrates"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:lineSpacingExtra="4sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:text=" •	Carbohydrates, like protein, provide four calories per gram. The body breaks down various carbohydrate foods (whether simple or complex) into glucose, which is used easily for energy or saved away in muscles and fat stores for later use.\n
+\n\n•	Carbs are the body’s preferred, No. 1 energy source. However, they aren’t the only macronutrient that supplies energy to cells. This is why it’s possible to follow a low-carb diet and still have enough energy, endurance and muscular strength.\n
+Many people immediately think of breads, pasta, rice and potatoes when someone says carbohydrate, and they’re not wrong, but many other foods are carbs too:\n
+\n\n•	Breads, rice, pasta, oats, quinoa, couscous\n
+\n\n•	Starchy vegetables (potatoes, corn and pumpkin)\n
+\n\n•	All other vegetables (broccoli, lettuce, tomato, carrot, peas)\n
+\n\n•	Beans and pulses (chickpeas, baked beans, lentils)\n
+\n\n•	Some dairy foods such as milk and yoghurt\n
+\n\n•	Fruit\n
+\n\n•	Sugar and honey\n
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>

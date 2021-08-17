@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="plkk.developers.com.livfit.MyProfile"
+    android:background="@drawable/main_bg">
+
+    <TextView
+        android:id="@+id/myprofile_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Text"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/myprofile_height"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:textSize="25sp"
+        android:text="Text"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@+id/myprofile_fullname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/myprofile_weight"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/myprofile_height"
+        android:layout_marginTop="30dp"
+        android:text="Text"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/myprofile_edit"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_alignParentBottom="true"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:text="edit" />
+
+</RelativeLayout>

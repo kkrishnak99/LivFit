@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Torso_Rotation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="torso rotation with medicine ball"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text=" Functionality: Strong oblique muscles are key to avoiding lower back injuries. This exercise improves the strength and coordination of all your core muscles and will improve your tone and tighten your waist.\n
+Exercise: Sit on the ground with your knees bent, feet flat on the floor, holding a medicine ball at your chest with both hands.\n Lean your torso away from your thighs, increasing the angle at your hips and pulling your belly button in toward your spine.\n Maintaining your hip angle, rotate your torso to the right, moving your right elbow toward the floor behind you.\n Return to centre, and rotate to the left.\n Repeat 10 to 15 times for each side.\n As you get stronger, perform the rotations with straighter arms, or use a heavier medicine ball.\n Always keep your belly button pulled in.\n
+ "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+
+            android:src="@drawable/torso_rotation"/>
+    </LinearLayout>
+</ScrollView>

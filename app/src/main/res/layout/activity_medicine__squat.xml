@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Medicine_Squat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="medicine ball squat"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:padding="8sp"
+            android:lineSpacingExtra="4sp"
+            android:text=" Functionality: Even though you lift your kids and groceries with your arms, your legs and back are also key players. This exercise strengthens your legs, glutes, lower back, arms and shoulders.\n
+Exercise: Stand with your feet wide apart, holding a light medicine ball in front of you in both hands. \nSquat down, moving your rear back and keeping your knees over your ankles, and lower the medicine ball to the floor, keeping your head up and back straight (don't hunch).\n Return to the start position, and lift the medicine ball over your head. Repeat the squat, and lower ball to the ground.\n Perform three sets of 10 repetitions.\n Increase the weight of the ball as you get stronger.\n
+ "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/medicine_squat"/>
+    </LinearLayout>
+</ScrollView>

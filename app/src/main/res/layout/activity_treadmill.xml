@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Treadmill">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="treadmill"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text=" Your Form\n
+The mistake: Too much bouncing up and down. Your head should remain relatively level while running, otherwise you'll tire out your joints—and yourself—too soon.\n
+The fix: Improve flexibility to smooth out your stride. Try leg swings—hold the handlebar, stand on one leg, and swing the other back and forth, keeping your upper body still. This will loosen your legs.\n
+Your Workout\n
+The mistake: Too many long, steady, flat runs.\n
+The fix: Run shorter and harder, mixing speeds and inclines to create intervals. Start with a 2 percent incline, and over several sessions work up to 10 percent. (Just walk at steep inclines.)\n "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/treadmill"/>
+    </LinearLayout>
+</ScrollView>

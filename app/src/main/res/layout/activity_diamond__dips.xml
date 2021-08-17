@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Diamond_Dips">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="diamond dips"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:lineSpacingExtra="4sp"
+            android:text="1.Get on a mat. It's a good idea to do this exercise on a mat, which will slightly cushion your hands. Doing it on a hard surface may be hard on your hands and wrists.
+\n\n2. Move into push up position. Face the mat and stretch out your arms and legs a bit to get ready.
+\n\n3. Place your hands under your chest and make a diamond shape. Touch your forefingers together and your thumbs together. This forms your diamond, also known as a pyramid.
+\n\n4.Lower yourself to the ground, then push up. Keep your back straight and tense your abs and chest. Make sure to keep your fingers in the correct diamond position. Repeat.
+"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/diamond"
+            android:scaleType="fitStart"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Diagonal_Ball">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="diagonal medicine ball"
+            android:textSize="30sp"
+            android:textStyle="bold"            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text="  Functionality: When you reach for your boots on the top shelf of your closet, pay attention to how your body moves — one arm reaches up while the opposite leg slightly lifts to the side. This exercise works all the muscles — arms, shoulders, legs — involved in lifting something diagonally overhead as well as lowering it.\n\n
+Exercise: Stand tall, holding a medicine ball at your chest with both hands.\n Lift the medicine ball diagonally overhead to the right, straightening your arms while extending your left leg to the side, making a diagonal line from the medicine ball to your toes.\n Lower to the start position.\n Repeat 10 to 15 times for each leg.\n Increase the weight of the medicine ball, and strap 2- to 5-pound weights on your ankles as you get stronger.\n\n
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:padding="8dp"
+            android:src="@drawable/diagonal_ball"/>
+    </LinearLayout>
+</ScrollView>

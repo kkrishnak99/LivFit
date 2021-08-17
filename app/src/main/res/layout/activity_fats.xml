@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Fats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Fats"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text="  Fats have been given a bad name, but they too are an important part of our diet. They’re used by the body as energy, storage for vitamins, for production of hormones and as protection for our organs. There are different types of fats:\n
+Saturated\n\n
+These should be limited, but not necessarily avoided. If eaten in large amounts they can be bad for your heart health. They are found in:\n\n
+•	Meat fat\n
+•	Butter\n
+•	Full fat dairy products\n
+•	Coconut oil and products\n
+•	Peanut oil, palm oil and cottonseed oil\n
+•	Our occasional foods such as chips, biscuits and cake\n\n
+Swapping to reduced-fat dairy, and trimming the fat off your meat before cooking it are good ways to reduce your saturated fat intake.\n
+Unsaturated\n\n
+We should aim to include more of these fats in our diet, as they have the opposite effect to saturated fats, and can be beneficial for your heart health. They are found in:\n\n
+•	Fish\n
+•	Nuts\n
+•	Avocados\n
+•	Vegetable oils (olive, canola, sunflower, rice bran)\n
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>

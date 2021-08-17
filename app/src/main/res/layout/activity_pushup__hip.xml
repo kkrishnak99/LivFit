@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="plkk.developers.com.livfit.Pushup_Hip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="pushup with hip extension"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8sp"
+            android:justificationMode="inter_word"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="4sp"
+            android:text="   Functionality: This exercise strengthens your chest, shoulder and arm muscles (primarily triceps) as well as your core muscles and glutes.\n
+Exercise: On your hands and knees, place your hands wider than shoulder distance apart.\n Extend your right leg straight back, and pull your belly button up toward your spine, tightening your core muscles.\n Keeping your leg lifted, lower your chest to the ground until each of your elbows is at a 90-degree angle, then push up.\n Repeat 10 to 15 times for each leg. As you get stronger, increase the angle of your hips, increasing the distance of your knees from your hands.\n Eventually perform the exercise with straight legs: one leg lifted, the other positioned on your toes.\n
+"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/pushup_hip"
+            android:scaleType="fitStart"
+
+
+            />
+    </LinearLayout>
+</ScrollView>

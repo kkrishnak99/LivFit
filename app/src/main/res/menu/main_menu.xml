@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".User" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/My_profile"
+            android:checkable="false"
+            android:orderInCategory="1"
+            android:title="My Profile"
+            android:visible="true"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/Logout"
+            android:enabled="false"
+            android:orderInCategory="1"
+            android:title="Logout"
+            android:visible="true"
+            app:showAsAction="never" />
+    </group>
+
+</menu>
